@@ -1,16 +1,31 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@300;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  button {
+    @apply font-heading;
+  }
+
+  html {
+    @apply font-body;
+  }
+
+  button {
+    @apply px-6 py-3 md:px-8 md:py-4 bg-brand-blue-300 text-white rounded uppercase tracking-widest transition-colors hover:bg-opacity-80;
+  }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+@layer components {
+  .ghost-btn {
+    @apply bg-transparent text-white border border-white hover:bg-white hover:text-black;
+  }
 }
