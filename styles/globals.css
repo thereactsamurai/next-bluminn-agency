@@ -20,7 +20,7 @@
   }
 
   button {
-    @apply px-6 py-3 md:px-8 md:py-4 bg-brand-blue-300 text-white rounded uppercase tracking-widest transition-colors hover:bg-opacity-80;
+    @apply px-4 py-2 md:px-8 md:py-4 bg-brand-blue-300 text-white rounded uppercase tracking-widest transition-colors hover:bg-opacity-80;
   }
 }
 
