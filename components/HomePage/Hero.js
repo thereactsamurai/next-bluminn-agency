@@ -2,9 +2,9 @@ import Logo from "../Logo";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen bg-hero-image bg-cover">
-      <section className="px-4 lg:px-0 container text-white">
-        <section className="min-h-screen flex flex-col items-center justify-center gap-8 lg:gap-12 lg:items-start">
+    <section className="min-h-screen bg-hero-image bg-cover before:bg-black before:w-full before:min-h-screen">
+      <section className="container bg-blue-500 bg-opacity-25 text-white  ">
+        <section className="px-4 min-h-screen bg-black bg-opacity-75 flex flex-col items-center justify-center gap-8 lg:gap-12 lg:items-start lg:px-0">
           <section className="text-center lg:text-left">
             <h2 className="mb-1 text-xs font-semibold uppercase tracking-widest md:mb-5 md:text-xl">
               Welcome to <Logo />
