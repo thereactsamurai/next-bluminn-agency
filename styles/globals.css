@@ -20,12 +20,12 @@
   }
 
   button {
-    @apply px-4 py-2 md:px-8 md:py-4 bg-brand-blue-300 text-white rounded uppercase tracking-widest transition-colors hover:bg-opacity-80;
+    @apply px-4 py-2 md:px-8 md:py-4 text-sm md:text-base bg-brand-blue-300 text-white rounded uppercase tracking-widest transition-colors hover:bg-opacity-80;
   }
 }
 
 @layer components {
   .ghost-btn {
-    @apply bg-transparent text-white border border-white hover:bg-white hover:text-black;
+    @apply bg-transparent text-white border border-white hover:bg-white hover:text-black hover:bg-opacity-100;
   }
 }
